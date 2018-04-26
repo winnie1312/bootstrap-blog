@@ -1,0 +1,36 @@
+nav {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 20px;
+  z-index: 5;
+  
+}
+
+.nav-item {
+  margin-left: 25px;
+}
+
+.container-fluid {
+  background-image: url(./image/pineapple.jpeg);
+  background-size: cover;
+  background-position: center;
+  height: 800px;
+  width: 100%;
+  position: absolute;
+}
+
+#first-hero {
+  background-color: black;
+  opacity: 0.2;
+  height: 800px;
+}
+
+.hero-text-1 {
+  color:#fff;
+  padding-top: 300px;
+}
+
+.fa {
+  color: grey;
+}
