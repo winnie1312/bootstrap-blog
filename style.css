@@ -11,9 +11,10 @@ nav {
   margin-left: 25px;
 }
 
-.container-fluid {
+.fluid {
   background-image: url(./image/pineapple.jpeg);
   background-size: cover;
+  background-repeat: no-repeat;
   background-position: center;
   height: 800px;
   width: 100%;
@@ -33,4 +34,110 @@ nav {
 
 .fa {
   color: grey;
+}
+
+/*ABOUT ME*/
+.about-me {
+  margin-top: 100px;
+  /* border: 1px solid #333; */
+  margin-bottom: 100px;
+}
+.about-me-title {
+  margin-bottom: 20px;
+}
+
+.author-photo img {
+  width: 300px;
+}
+
+/*PAGINATION TRY*/
+.connect {
+  height: 500px;
+  width: 100%;
+  background-size: cover;
+  background-position: 50% 50%;
+}
+
+.connect-1 {
+  background-image: url("http://t1.daumcdn.net/brunch/service/user/KS3/image/sgKLh2A_ulrza5rFn8pTmbMZaic.jpg");
+}
+.connect-2 {
+  background-image: url("http://t1.daumcdn.net/brunch/service/user/KS3/image/ijRE3h8RDs3EaOREz6_m2HjtSxw.jpg");
+}
+
+.connect-3 {
+  background-image: url("http://t1.daumcdn.net/brunch/service/user/P26/image/Z0ILmfsYFBaJFoZ6Td5cCDAInQQ.jpg");
+}
+
+.connect-4 {
+  background-image: url("http://t1.daumcdn.net/brunch/service/user/3Ywo/image/aoZ4LlBmH54KU-ZZHmIN61BqcCo.jpg");
+}
+
+
+.deck-1 {
+  background-image: url("https://t1.daumcdn.net/section/oc/ea0b3c2588ce416090d89ef24b7c0915");
+}
+
+.deck-2 {
+  background-image: url("http://t1.daumcdn.net/brunch/service/magazine/0/coverImage_U7-uFwhYmM9wv1H7kkh4uMZg0Do.png");
+}
+
+.deck-3 {
+  background-image: url("http://t1.daumcdn.net/section/oc/309d4774e6c348b283a26424686902a5");
+}
+
+.deck-4 {
+  background-image: url("https://t1.daumcdn.net/section/oc/848d5f3aa4b44f2fa5ca2dfda058143f");
+}
+.deck-5 {
+  background-image: url("https://t1.daumcdn.net/section/oc/36bfe39ae3d847d18e94dfff7da4f911");
+}
+
+.daily-deck {
+  background-size: cover;
+  width: 158px;
+  height: 230px;
+  border-radius: 0 5px 5px 0;
+  margin-right: 20px;
+  position: relative;
+  opacity: 0.8;
+}
+
+.daily-deck:hover {
+  opacity: 1;
+}
+
+.info-cover {
+  background-color: #fff;
+  width: 100px;
+  height: 140px;
+  position: absolute;
+  border-radius: 0 5px 5px 0;
+  right: 16px;
+  top: 16px;
+  text-align: right;
+}
+
+.title-cover {
+  font-size: 13px;
+  padding: 12px 12px 0 14px;
+  line-height: 20px;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.author-cover {
+  font-size: 11px;
+  padding-right: 14px;
+}
+
+.icon-by {
+  font-style: italic;
+}
+
+.deck-5 {
+  margin-right: 0;
+}
+
+h4, h6 {
+  font-family: 'Open Sans', sans-serif;
 }
