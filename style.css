@@ -85,32 +85,43 @@
   background-image: url("");
 }
 
-
 .deck-1 {
-  background-image: url("https://t1.daumcdn.net/section/oc/ea0b3c2588ce416090d89ef24b7c0915");
+  background-image: url("https://t1.daumcdn.net/section/oc/36bfe39ae3d847d18e94dfff7da4f911");
+  background-size: cover;
 }
 
 .deck-2 {
   background-image: url("http://t1.daumcdn.net/brunch/service/magazine/0/coverImage_U7-uFwhYmM9wv1H7kkh4uMZg0Do.png");
+  background-size: cover;
 }
 
 .deck-3 {
   background-image: url("http://t1.daumcdn.net/section/oc/309d4774e6c348b283a26424686902a5");
+  background-size: cover;
 }
 
 .deck-4 {
   background-image: url("https://t1.daumcdn.net/section/oc/848d5f3aa4b44f2fa5ca2dfda058143f");
+  background-size: cover;
+  background-size: cover;
+  width: 158px;
+  height: 230px;
+  border-radius: 0 7px 7px 0;
+  position: relative;
+  opacity: 0.8;
 }
+
 .deck-5 {
-  background-image: url("https://t1.daumcdn.net/section/oc/36bfe39ae3d847d18e94dfff7da4f911");
+  background-image: url("https://t1.daumcdn.net/section/oc/ea0b3c2588ce416090d89ef24b7c0915");
+  background-size: cover;
 }
 
 .daily-deck {
   background-size: cover;
   width: 158px;
   height: 230px;
-  border-radius: 0 5px 5px 0;
-  margin-right: 20px;
+  border-radius: 0 7px 7px 0;
+  margin-right: 25px;
   position: relative;
   opacity: 0.8;
 }
@@ -146,9 +157,7 @@
   font-style: italic;
 }
 
-.deck-5 {
-  margin-right: 0;
-}
+
 
 h4, h6 {
   font-family: 'Open Sans', sans-serif;
@@ -223,6 +232,7 @@ textarea.form-control {
   margin-top: 100px;
   padding: 100px 0;
   background-color: #dce1e1;
+ 
 }
 .weekly-articles .box-head {
   background-color: #fff;
@@ -284,11 +294,13 @@ footer {
 .box-item {
   height: 320px;
   background-color: #fff;
-  border: 1px solid #333;
+  /* border: 1px solid #333; */
+  overflow: hidden;
 }
 
 @media screen and (min-width:960px) {
-  .weekly-articles .container {
+  .weekly-articles .container,
+  #daily-articles .container {
     width: 960px;
   }
 }
@@ -299,7 +311,7 @@ footer {
 }
 
 .by {
-  margin-top: 150px;
+  margin-top: 100px;
 }
 .light-grey-font {
   color: #959595;
@@ -318,4 +330,29 @@ footer {
   background-image: url("http://t1.daumcdn.net/brunch/service/guest/image/cXeFZmLIjRg013vL0_CQEUJSn3A.png");
   background-repeat: no-repeat;
   background-size: cover;
+}
+
+a.book-link {
+  text-decoration: none;
+  
+}
+
+a.book-link:hover {
+  text-decoration: none;
+  color: #333;
+}
+
+.box-book .box-item:hover {
+  opacity: 0.8;
+}
+
+.article-bottom {
+  height: 50px;
+}
+.author-icon {
+  height: 42px;
+  width: 42px;
+  border-radius: 50%;
+  position: absolute;
+  bottom: 20px;
 }
