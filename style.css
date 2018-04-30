@@ -1,12 +1,18 @@
-nav {
-  font-family: 'Open Sans', sans-serif;
+/* body.modal-open {
+  padding-right: -17px !important;
+} */
+
+.nav {
   font-size: 13px;
   font-weight: 400;
   line-height: 20px;
   z-index: 5;
-  
 }
 
+.dropdown-item {
+  font-family: 'Dosis', sans-serif;
+  letter-spacing: 2px;
+}
 .nav-item {
   margin-left: 25px;
 }
@@ -22,8 +28,6 @@ nav {
 }
 
 #first-hero {
-  background-color: black;
-  opacity: 0.2;
   height: 800px;
 }
 
@@ -44,8 +48,16 @@ nav {
 }
 .about-me-title {
   margin-bottom: 20px;
+  line-height: 22px;
+  font-size: 16px;
 }
 
+.about-me-content {
+  color: #777;
+  font-size: 14px;
+  line-height: 25px;
+  letter-spacing: 1px;
+}
 .author-photo img {
   width: 300px;
 }
@@ -54,23 +66,23 @@ nav {
 .connect {
   height: 500px;
   width: 100%;
-  background-size: cover;
-  background-position: 50% 50%;
+  background-size: cover; 
+  background-position: 50% 50%; 
 }
 
 .connect-1 {
-  background-image: url("http://t1.daumcdn.net/brunch/service/user/KS3/image/sgKLh2A_ulrza5rFn8pTmbMZaic.jpg");
+  background-image: url("");
 }
 .connect-2 {
-  background-image: url("http://t1.daumcdn.net/brunch/service/user/KS3/image/ijRE3h8RDs3EaOREz6_m2HjtSxw.jpg");
+  background-image: url("");
 }
 
 .connect-3 {
-  background-image: url("http://t1.daumcdn.net/brunch/service/user/P26/image/Z0ILmfsYFBaJFoZ6Td5cCDAInQQ.jpg");
+  background-image: url("");
 }
 
 .connect-4 {
-  background-image: url("http://t1.daumcdn.net/brunch/service/user/3Ywo/image/aoZ4LlBmH54KU-ZZHmIN61BqcCo.jpg");
+  background-image: url("");
 }
 
 
@@ -140,4 +152,170 @@ nav {
 
 h4, h6 {
   font-family: 'Open Sans', sans-serif;
+}
+
+.font-dosis {
+  font-family: 'Dosis', sans-serif;
+  letter-spacing: 5px;
+}
+
+.font-dosis-small {
+  font-family: 'Dosis', sans-serif;
+  letter-spacing: 2px;
+}
+
+.font-open-sans {
+  font-family: 'Open Sans', sans-serif;
+}
+
+.grey-font {
+  color: #777;
+  font-size: 14px;
+  line-height: 25px;
+}
+
+
+.content-box-icon i {
+  color: #333;
+  font-size: 28px;
+}
+
+.content-box {
+  position: relative;
+  padding-left: 55px;
+}
+
+.content-box-icon {
+  position: absolute;
+  left: 5px;
+  top: 15px;
+}
+
+.form-control {
+  border: 2px solid #eee;
+  height: 33px;
+  font-family: 'Dosis', sans-serif;
+  letter-spacing: 2px;
+  font-size: 11px !important;
+}
+
+textarea.form-control {
+  height: auto;
+}
+
+.send-button {
+  background-color: rgba(17, 17, 17, 0.8);
+  color: #fff;
+}
+
+.send-button:hover {
+  background-color: rgba(17, 17, 17, 1);
+}
+
+.btn {
+  letter-spacing: 2px;
+  font-size: 11px !important;
+  padding: 8px 37px;
+}
+
+.weekly-articles {
+  position: relative;
+  margin-top: 100px;
+  padding: 100px 0;
+  background-color: #dce1e1;
+}
+.weekly-articles .box-head {
+  background-color: #fff;
+  height: 160px;
+  overflow: hidden;
+}
+.box-head-desc {
+  font-size: 11px;
+  color: #333;
+}  
+
+/*BOX-BOOKS*/
+
+
+#getInTouchForm {
+  padding: 100px 100px;
+}
+
+
+
+
+
+
+
+
+
+footer {
+  height: 300px;
+  background-color: #333;
+  color: #fff;
+  font-family: 'Noto Serif', serif;
+}
+
+.inner-footer {
+  position: relative;
+}
+.bottom-list {
+  position: absolute;
+  width: 100%; 
+  top: 250px;
+}
+.area-quotation h5 {
+  font-size: 14px;
+  line-height: 21px;
+  font-weight: 400;
+  margin-bottom: 0;
+}
+
+.area-quotation small {
+  font-size: 11px;
+  line-height: 17px;
+  font-weight: 400;
+}
+
+.list-social-icon li a:hover { 
+  opacity: 0.5;
+}
+
+.box-item {
+  height: 320px;
+  background-color: #fff;
+  border: 1px solid #333;
+}
+
+@media screen and (min-width:960px) {
+  .weekly-articles .container {
+    width: 960px;
+  }
+}
+
+
+.weekly-articles .container .box-head {
+  margin: 0 -15px;
+}
+
+.by {
+  margin-top: 150px;
+}
+.light-grey-font {
+  color: #959595;
+}
+.first-image-book {
+  background-image: url("http://t1.daumcdn.net/brunch/service/user/KS3/image/PZ8e1l5177CvRP2eiWBS-kbRKnc.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.second-image-book {
+  background-image: url("http://t1.daumcdn.net/brunch/service/user/1ENz/image/ue6LQOkRP0IYqm2X5ZNSXVmOP1w.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.third-image-book {
+  background-image: url("http://t1.daumcdn.net/brunch/service/guest/image/cXeFZmLIjRg013vL0_CQEUJSn3A.png");
+  background-repeat: no-repeat;
+  background-size: cover;
 }
