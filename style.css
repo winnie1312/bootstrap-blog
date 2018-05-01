@@ -13,22 +13,56 @@
   font-family: 'Dosis', sans-serif;
   letter-spacing: 2px;
 }
+
 .nav-item {
   margin-left: 25px;
 }
 
-.fluid {
-  background-image: url(./image/pineapple.jpeg);
+
+.font-dosis {
+  font-family: 'Dosis', sans-serif;
+  letter-spacing: 5px;
+}
+
+.font-dosis-small {
+  font-family: 'Dosis', sans-serif;
+  letter-spacing: 2px;
+}
+
+.font-open-sans {
+  font-family: 'Open Sans', sans-serif;
+}
+
+.grey-font {
+  color: #777;
+  font-size: 14px;
+  line-height: 25px;
+}
+
+#hero-image {
+  background-image: url("http://t1.daumcdn.net/brunch/service/user/24v4/image/7-NJzlql-nBRno_NTaFDmieB9Gk.JPG");
+  height: 800px;
+  width: 100%;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  height: 800px;
-  width: 100%;
-  position: absolute;
 }
 
-#first-hero {
-  height: 800px;
+@media screen and (max-width:1200px) {
+  #hero-image {
+    height: 800px;
+  }
+}
+@media screen and (max-width:768px) {
+  #hero-image {
+    height: 500px;
+  }
+}
+
+@media screen and (max-width:600px) {
+  #hero-image {
+    height: 350px;
+  }
 }
 
 .hero-text-1 {
@@ -157,32 +191,9 @@
   font-style: italic;
 }
 
-
-
 h4, h6 {
   font-family: 'Open Sans', sans-serif;
 }
-
-.font-dosis {
-  font-family: 'Dosis', sans-serif;
-  letter-spacing: 5px;
-}
-
-.font-dosis-small {
-  font-family: 'Dosis', sans-serif;
-  letter-spacing: 2px;
-}
-
-.font-open-sans {
-  font-family: 'Open Sans', sans-serif;
-}
-
-.grey-font {
-  color: #777;
-  font-size: 14px;
-  line-height: 25px;
-}
-
 
 .content-box-icon i {
   color: #333;
@@ -294,7 +305,6 @@ footer {
 .box-item {
   height: 320px;
   background-color: #fff;
-  /* border: 1px solid #333; */
   overflow: hidden;
 }
 
