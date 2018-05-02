@@ -8,13 +8,14 @@ the bootstrap blog has 2 pages (main page and blog page) coded in HTML5 and CSS3
 
 :godmode: **Instructed by** Khoa Vo 
 
+:art: **Design** inspired by Brunch Korea and many beautiful websites on the Internet
 
 :raised_hand: **Wrap Up**
 
 If you think any of the code can be improved, please do open a PR with any updates and submit any issues. Also, I will continue to improve this and put some JS functions.
 
 
-:art: **Video Walkthrough**
+:camera: **Video Walkthrough**
 
 GIF created with [LiceCap](http://www.cockos.com/licecap/).
 
