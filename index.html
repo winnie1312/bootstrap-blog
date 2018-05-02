@@ -2,16 +2,15 @@
 <html>
   <head>
     <title>ZEN LAB</title>
+    <!--favicon-->
+    <link rel="icon" href="./image/favicon.ico" type="image/x-icon">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!--style link-->
     <link type="text/css" rel="stylesheet" href="./style.css">    
     <!--font awesome-->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-    
     <!--jquery n BOOTSTRAP link-->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
-
-    
     <!--font family-->
     <link href="https://fonts.googleapis.com/css?family=PT+Sans" rel="stylesheet">
     <!--OPEN-SAN-->
@@ -20,77 +19,75 @@
     <link href="https://fonts.googleapis.com/css?family=Noto+Serif" rel="stylesheet">
     <!--DOSIS FONT-->
     <link href="https://fonts.googleapis.com/css?family=Dosis" rel="stylesheet">
-
   </head>
-
   <body>
     <!--NAV-->
-      <nav class="navbar navbar-custom navbar-transparent font-dosis navbar-light navbar-fix-top navbar-expand-lg navbar-expand-md">       
-        <div class="container">
-          <!--LOGO-->        
-          <a class="navbar-brand font-dosis" href="#">ZEN LAB</a>
-          <!--ICON NAVBAR-->
-          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggler" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <!--/ICON NAVBAR-->
-          <div id="navbarToggler" class="collapse navbar-collapse">
-            <ul class="navbar-nav ml-auto ">
-              <li class="nav-item ml-3 pt-1">
-                <a class="nav-link text-uppercase "  href="#">about</a>
-              </li>
-              <li class="nav-item ml-3 pt-1">
-                <a class="nav-link text-uppercase"  href="#">blog</a>
-              </li>
-              <li class="nav-item ml-3 pt-1">
-                <!-- <a class="nav-link text-uppercase"  href="#">code lab</a> -->
-                <div class="dropdown">
-                    <a class="nav-link text-uppercase dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">zen lab</a>                 
-                    <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
-                      <a class="dropdown-item" href="#">Code lab</a>
-                      <a class="dropdown-item" href="#">Design lab</a>
-                      <a class="dropdown-item" href="#">Coffee lab</a>
-                    </div>
-                </div>
-              </li>
-              <li class="nav-item ml-3 pt-1">
-                <a class="nav-link text-uppercase" href="#">contact</a>
-              </li>
-              <!--SIGN UP-->
-              <li class="nav-item ml-3 pt-1">
-                <a class="nav-link text-uppercase" href="#" data-toggle="modal" data-target="#signUpModal">log in</a>
-                  <!-- Modal -->
-                  <div class="modal fade" id="signUpModal" tabindex="-1" role="dialog" aria-labelledby="signUpModalTitle" aria-hidden="true">
-                    <div class="modal-dialog modal-dialog-centered" role="document">
-                      <div class="modal-content">
-                        <div class="modal-header">
-                          <h5 class="modal-title text-uppercase" id="signUpModalTitle">log in</h5>
-                          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                            <span aria-hidden="true">&times;</span>
-                          </button>
-                        </div>
-                        <div class="modal-body">
-                          <form>
-                            <small class="font-italic text-muted" style="letter-spacing: 1px;"> Please log in to access full content</small>
-                            <div class="form-group mt-3">
-                              <input type="email" class="form-control text-uppercase" aria-describedby="emailHelp" placeholder="Your Email*">
-                            </div>  
-                            <div class="form-group">
-                              <input type="password" class="form-control text-uppercase" placeholder="password*">
-                            </div>
-                          </form>
-                        </div>
-                        <div class="modal-footer">
-                          <button type="button" class="btn border mx-auto text-uppercase font-dosis">log in</button>
-                        </div>
+    <nav class="navbar navbar-custom navbar-transparent font-dosis navbar-light navbar-fix-top navbar-expand-lg navbar-expand-md">       
+      <div class="container">
+        <!--LOGO-->        
+        <a class="navbar-brand font-dosis" href="./index.html">ZEN LAB</a>
+        <!--ICON NAVBAR-->
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggler" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <!--/ICON NAVBAR-->
+        <div id="navbarToggler" class="collapse navbar-collapse">
+          <ul class="navbar-nav ml-auto ">
+            <li class="nav-item ml-3 pt-1">
+              <a class="nav-link text-uppercase "  href="#">about</a>
+            </li>
+            <li class="nav-item ml-3 pt-1">
+              <a class="nav-link text-uppercase"  href="#">blog</a>
+            </li>
+            <li class="nav-item ml-3 pt-1">
+              <!-- <a class="nav-link text-uppercase"  href="#">code lab</a> -->
+              <div class="dropdown">
+                  <a class="nav-link text-uppercase dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">zen lab</a>                 
+                  <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                    <a class="dropdown-item" href="#">Code lab</a>
+                    <a class="dropdown-item" href="#">Design lab</a>
+                    <a class="dropdown-item" href="#">Coffee lab</a>
+                  </div>
+              </div>
+            </li>
+            <li class="nav-item ml-3 pt-1">
+              <a class="nav-link text-uppercase" href="#">contact</a>
+            </li>
+            <!--SIGN UP-->
+            <li class="nav-item ml-3 pt-1">
+              <a class="nav-link text-uppercase" href="#" data-toggle="modal" data-target="#signUpModal">log in</a>
+                <!-- Modal -->
+                <div class="modal fade" id="signUpModal" tabindex="-1" role="dialog" aria-labelledby="signUpModalTitle" aria-hidden="true">
+                  <div class="modal-dialog modal-dialog-centered" role="document">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h5 class="modal-title text-uppercase" id="signUpModalTitle">log in</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                          <span aria-hidden="true">&times;</span>
+                        </button>
+                      </div>
+                      <div class="modal-body">
+                        <form>
+                          <small class="font-italic text-muted" style="letter-spacing: 1px;"> Please log in to access full content</small>
+                          <div class="form-group mt-3">
+                            <input type="email" class="form-control text-uppercase" aria-describedby="emailHelp" placeholder="Your Email*">
+                          </div>  
+                          <div class="form-group">
+                            <input type="password" class="form-control text-uppercase" placeholder="password*">
+                          </div>
+                        </form>
+                      </div>
+                      <div class="modal-footer">
+                        <button type="button" class="btn border mx-auto text-uppercase font-dosis">log in</button>
                       </div>
                     </div>
-                  </div>        
-              </li>
-            </ul>
-          </div>  
-        </div>
-      </nav> 
+                  </div>
+                </div>        
+            </li>
+          </ul>
+        </div>  
+      </div>
+    </nav> 
     <!--HERO IMAGE-->    
     <section id="hero-image" class="container-fluid">
       <div class="row hero-text text-white">
@@ -116,13 +113,13 @@
             </p>
           </div>
           <div class="author-photo text-center col-12 col-sm-12 col-md-5 col-lg-5 py-auto">
-              <img src="http://t1.daumcdn.net/brunch/service/guest/image/0zF4AcFZrOYU8Senj-d138xBGPI.png">
+            <img src="http://t1.daumcdn.net/brunch/service/guest/image/0zF4AcFZrOYU8Senj-d138xBGPI.png">
           </div>
         </div>
       </div>
     </section>
      <!--DAILY ARTICLES CONTAINER-->
-     <section id="daily-articles">
+    <section id="daily-articles">
       <div class="container">
         <div class="row">
           <div class="col-12 col-sm-12 col-md-12">
@@ -315,7 +312,6 @@
         </div>
       </div>
     </section>
-
     <!--GET IN TOUCH-->
     <section id="getInTouchForm">
       <div class="container">
@@ -336,20 +332,20 @@
             </div>
           </div>
           <div class="col-md-6 col-sm-12">
-              <form>
-                  <div class="form-group">
-                    <input type="text" class="form-control text-uppercase" placeholder="Name*">
-                  </div>
-                  <div class="form-group">
-                    <input type="email" class="form-control text-uppercase" aria-describedby="emailHelp" placeholder="Your Email*">
-                  </div>
-                  <div class="form-group">
-                    <textarea name="your-message" class="form-control text-uppercase" cols="50" rows="7" placeholder="Message*"></textarea>
-                  </div>
-                  <div class="text-center">
-                    <input type="submit" value="Send" class="btn btn-block send-button text-uppercase">
-                  </div>
-                </form>
+            <form>
+              <div class="form-group">
+                <input type="text" class="form-control text-uppercase" placeholder="Name*">
+              </div>
+              <div class="form-group">
+                <input type="email" class="form-control text-uppercase" aria-describedby="emailHelp" placeholder="Your Email*">
+              </div>
+              <div class="form-group">
+                <textarea name="your-message" class="form-control text-uppercase" cols="50" rows="7" placeholder="Message*"></textarea>
+              </div>
+              <div class="text-center">
+                <input type="submit" value="Send" class="btn btn-block send-button text-uppercase">
+              </div>
+            </form>
           </div>
         </div>
       </div>
@@ -386,7 +382,7 @@
          <!--/bottom list-->
       </div>
     </footer>
-  
+    <!--bootstrap & jquery-->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script>
     <!--js link-->

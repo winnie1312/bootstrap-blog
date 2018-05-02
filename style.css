@@ -14,7 +14,6 @@
   margin-left: 25px;
 }
 
-
 .font-dosis {
   font-family: 'Dosis', sans-serif;
   letter-spacing: 5px;
@@ -217,8 +216,6 @@ textarea.form-control {
   color: #333;
 }  
 
-/*BOX-BOOKS*/
-
 #getInTouchForm {
   padding: 100px 100px;
 }
@@ -257,19 +254,23 @@ footer {
 .by {
   margin-top: 100px;
 }
+
 .light-grey-font {
   color: #959595;
 }
+
 .first-image-book {
   background-image: url("http://t1.daumcdn.net/brunch/service/user/KS3/image/PZ8e1l5177CvRP2eiWBS-kbRKnc.jpg");
   background-repeat: no-repeat;
   background-size: cover;
 }
+
 .second-image-book {
   background-image: url("http://t1.daumcdn.net/brunch/service/user/1ENz/image/ue6LQOkRP0IYqm2X5ZNSXVmOP1w.jpg");
   background-repeat: no-repeat;
   background-size: cover;
 }
+
 .third-image-book {
   background-image: url("http://t1.daumcdn.net/brunch/service/guest/image/cXeFZmLIjRg013vL0_CQEUJSn3A.png");
   background-repeat: no-repeat;
@@ -293,6 +294,7 @@ a.book-link:hover {
 .article-bottom {
   height: 50px;
 }
+
 .author-icon {
   height: 42px;
   width: 42px;
@@ -307,6 +309,7 @@ a.book-link:hover {
   text-align: center;
   width: 100%;
 }
+
 .blog-icon {
   height: 80px;
   width: 80px;

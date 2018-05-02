@@ -1,7 +1,3 @@
-/* nav {
-  background-color: transparent;
-  position: absolute;
-} */
 .nav {
   font-size: 13px;
   font-weight: 400;
@@ -48,46 +44,10 @@
   position: relative;
   overflow: hidden;
 }
+
 .hero-text {
   position: absolute;
   bottom: 25%;
-}
-
-@media screen and (min-width:768px) {
-  #hero-image {
-    height: 800px;
-  }
-  #main-article {
-    width: 700px;
-  }
-  #comment-section {
-    width: 700px;
-  }
-  
-}
-@media screen and (min-width:481px) and (max-width:767px) {
-  #hero-image {
-    height: 500px;
-  }
-  #main-article {
-    width: 450px;
-  }
-  #comment-section {
-    width: 450px;
-  }
-}
-
-@media screen and (min-width:320px) and (max-width:480px) {
-  #hero-image {
-  height: 400px;
-  overflow: hidden;
-  }
-  #main-article {
-  width: 300px;
-  }
-  #comment-section {
-    width: 300px;
-    }
 }
 
 .cover-cell a.bottom-line {
@@ -112,6 +72,7 @@
 .sidebar {
   display: none;
 }
+
 .sidebar.active {
   position: absolute;
   display: block;
@@ -136,7 +97,6 @@
   left: 300px;
   top: 150px;
   position: fixed;
-  
 }
 
 .icon-side a {
@@ -154,15 +114,6 @@
   border: 1px solid #909090;
   border-radius: 50%;
   padding: 0.25em 0.42em 1em 0.42em;
-}
-
-@media screen and (max-width: 1390px) {
-  .sidebar.active {
-    display: none;
-  } 
-  .icon-side.active {
-    display: none;
-  }
 }
 
 #main-article img {
@@ -221,6 +172,7 @@ a.follow-btn .follow-text {
   font-weight: 400;
   color: #333;
 }
+
 .comment-day {
   color: #959595;
   opacity: 0.8;
@@ -268,6 +220,7 @@ footer.border-top {
 .inner-footer {
   position: relative;
 }
+
 .bottom-list {
   position: absolute;
   width: 100%; 
@@ -278,6 +231,7 @@ footer.border-top {
   font-size: 20px;
   color: #959595;
 }
+
 .list-inline-item a .ion:hover {
   color: #00c3bd;
 }
@@ -288,10 +242,57 @@ footer.border-top {
   text-align: center;
   width: 100%;
 }
+
 .blog-icon {
   height: 80px;
   width: 80px;
   border-radius: 40px;
   border: 1px solid #e4e2e2;
   padding: 4px;
+}
+
+@media screen and (min-width:768px) {
+  #hero-image {
+    height: 800px;
+  }
+  #main-article {
+    width: 700px;
+  }
+  #comment-section {
+    width: 700px;
+  }
+}
+
+@media screen and (min-width:481px) and (max-width:767px) {
+  #hero-image {
+    height: 500px;
+  }
+  #main-article {
+    width: 450px;
+  }
+  #comment-section {
+    width: 450px;
+  }
+}
+
+@media screen and (min-width:320px) and (max-width:480px) {
+  #hero-image {
+  height: 400px;
+  overflow: hidden;
+  }
+  #main-article {
+  width: 300px;
+  }
+  #comment-section {
+    width: 300px;
+  }
+}
+
+@media screen and (max-width: 1390px) {
+  .sidebar.active {
+    display: none;
+  } 
+  .icon-side.active {
+    display: none;
+  }
 }
