@@ -92,7 +92,7 @@
 }
 
 .deck-3 {
-  background-image: url("http://t1.daumcdn.net/section/oc/309d4774e6c348b283a26424686902a5");
+  background-image: url("http://t1.daumcdn.net/brunch/service/user/1PAP/image/aRZZ9TdgOMbxTxMtaMMIABc3yiA.PNG");
   background-size: cover;
 }
 
@@ -107,11 +107,6 @@
   opacity: 0.8;
 }
 
-.deck-5 {
-  background-image: url("https://t1.daumcdn.net/section/oc/ea0b3c2588ce416090d89ef24b7c0915");
-  background-size: cover;
-}
-
 .daily-deck {
   background-size: cover;
   width: 158px;
@@ -119,7 +114,7 @@
   border-radius: 0 7px 7px 0;
   margin-right: 25px;
   position: relative;
-  opacity: 0.8;
+  opacity: 0.9;
 }
 
 .daily-deck:hover {
@@ -343,6 +338,7 @@ a.book-link:hover {
   }
   .weekly-articles {
     margin-top: 0;
+    padding-top: 25px;
     padding-bottom: 0;
   }
   .content-box {
@@ -364,5 +360,18 @@ a.book-link:hover {
 @media screen and (min-width:1024px) {
   .about-me {
     width: 960px;
+  }
+}
+
+@media screen and (max-width:767px) {
+  .box-book .box-item {
+    border-bottom: 1px solid #e4e2e2;
+  }
+  .daily-deck {
+    margin-bottom: 20px;
+    border-radius: 0;
+  }
+  .daily-tit  {
+    margin-bottom: 100px;
   }
 }

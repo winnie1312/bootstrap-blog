@@ -296,3 +296,9 @@ footer.border-top {
     display: none;
   }
 }
+
+@media screen and (max-width:767px) {
+  .box-book .box-item {
+    border-bottom: 1px solid #333;
+  }
+}
