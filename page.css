@@ -292,4 +292,6 @@ footer.border-top {
   height: 80px;
   width: 80px;
   border-radius: 40px;
+  border: 1px solid #e4e2e2;
+  padding: 4px;
 }
