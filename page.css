@@ -48,7 +48,10 @@
   position: relative;
   overflow: hidden;
 }
-
+.hero-text {
+  position: absolute;
+  bottom: 25%;
+}
 
 @media screen and (min-width:768px) {
   #hero-image {
@@ -85,11 +88,6 @@
   #comment-section {
     width: 300px;
     }
-}
-
-.hero-text {
-  position: absolute;
-  bottom: 25%;
 }
 
 .cover-cell a.bottom-line {
@@ -179,10 +177,26 @@
   font-size: 10px;
 }
 
+.blockquote {
+  color: #00c3bd;
+}
 /* RESPONSE AREA */
 #response-section {
   background-color: #fbfbfb;
   position: relative;
+}
+
+.author-dec {
+  position: absolute;
+  top: -40px;
+  text-align: center;
+  width: 100%;
+}
+
+.author-avatar {
+  height: 80px;
+  width: 80px;
+  border-radius: 40px;
 }
 
 a.follow-btn {
@@ -225,18 +239,6 @@ a.follow-btn .follow-text {
   left: 5px; 
 }
 
-.author-avatar {
-  height: 80px;
-  width: 80px;
-  border-radius: 50%;
-  position: absolute;
-  top: -40px;
-}
-
-.comment-box {
-  height: 100px;
-}
-
 textarea.form-control {
   font-size: 14px;
 }
@@ -252,4 +254,42 @@ a.comment-button {
 a.comment-button:hover {
   border: 1px solid #00c3bd;
   color: #00c3bd;
+}
+
+/* FOOTER */
+
+footer.border-top {
+  height: 300px;
+  color: #333;
+  font-family: 'Noto Serif', serif;
+  position: relative;
+}
+
+.inner-footer {
+  position: relative;
+}
+.bottom-list {
+  position: absolute;
+  width: 100%; 
+  top: 250px;
+}
+
+.ion {
+  font-size: 20px;
+  color: #959595;
+}
+.list-inline-item a .ion:hover {
+  color: #00c3bd;
+}
+
+.blog-avatar {
+  position: absolute;
+  top: -40px;
+  text-align: center;
+  width: 100%;
+}
+.blog-icon {
+  height: 80px;
+  width: 80px;
+  border-radius: 40px;
 }
